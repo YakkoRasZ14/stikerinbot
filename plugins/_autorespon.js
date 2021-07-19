@@ -42,8 +42,8 @@ handler.all = async function (m, { isBlocked }) {
 
     // List
     let reg = /(list)/i
-    let isSalam = reg.exec(m.text)
-    if (isSalam && !m.fromMe) {
+    let isList = reg.exec(m.text)
+    if (isList && !m.fromMe) {
         m.replyLIST HARGA\n_wa\'🌐YakkoXcode🌐\n_wa\🔰OPEN KEBUTUHAN HOSTING\n_wa\====================================\n_wa\HARGA MWHM\n_wa\====================================\n_wa\📂MWHM MINI : 80K\n_wa\📂MWHM MEDIUM : 100K\n_wa\📂MWHM EXTRA : 130K\n_wa\📂MWHM SUPER : 150K\n_wa\====================================\n_wa\HARGA WHM :\n_wa\====================================\n_wa\📂WHM MINI : 30K\n_wa\📂WHM MEDIUM : 40K\n_wa\📂WHM EXTRA : 50K\n_wa\📂WHM SUPER : 60K\n_wa\====================================\n_wa\HARGA WEB P:\n_wa\====================================\n_wa\📂WEB 0X GARANSI : 10K\n_wa\📂WEB 1X GARANSI : 15K\n_wa\📂WEB 2X GARANSI : 20K\n_wa\📂WEB 3X GARANSI : 25K\n_wa\====================================\n_wa\NOTE : TIDAK MENERIMA FULL GARANSI\n_wa\SERVER :   Lord BabyBoySgz🌐_*\n_wa\SEND EMAIL : WUSHHH🚀 _*\n_wa\AUTO SLL : GEMBOK IJO🔒_*\n_wa\NOTE : NO DELAY - DELAY⚡\n_wa\DANA KURANG : BISA DP ASALKAN LUNAS⚠️\n_wa\====================================\n_wa\Spesifikasi Server :\n_wa\Ram :\n_wa\8GB 4Core \n_wa\====================================\n_wa\💰PAYMENT : DANA | XL | IM3 | GOPAY\n_wa\====================================`)
     }
 
